@@ -9,23 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var primeng_1 = require("primeng/primeng");
 var AppComponent = (function () {
     function AppComponent() {
-        this.messages = [];
         this.introText = "";
     }
     AppComponent.prototype.ngOnInit = function () {
         this.introText = "Welcome to my GitHub site.";
-        var initMessage = { severity: "info", summary: "Info Message", detail: "Detailed info message." };
-        this.messages.push(initMessage);
     };
     AppComponent = __decorate([
         core_1.Component({
             selector: "dt-app",
             templateUrl: "app/app.component.html",
-            styleUrls: ["app/app.component.min.css"],
-            directives: [primeng_1.Messages]
+            styleUrls: ["app/app.component.min.css"]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
