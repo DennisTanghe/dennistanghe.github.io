@@ -5983,7 +5983,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 html {
   position: relative;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   min-height: 100%; }
 
 .centered-fa-icon {
